@@ -1,0 +1,9 @@
+name: ahmed 
+on: push 
+jobs:
+job-1: test errors
+- runs-on: ubunto latest
+steps: 
+-name : checkout
+- uses: action/setup python
+
