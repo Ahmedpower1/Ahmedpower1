@@ -1,0 +1,11 @@
+
+name: java 
+on:push 
+jobs:
+job-1: 
+- runs-on: windows latest 
+step1: 
+-run: npm --version 
+step2:
+-run: node --version
+
